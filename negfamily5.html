@@ -1,95 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-       <title>Preferencias</title>
-       <link rel="stylesheet" type="text/css" href="neg5.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Preferencias</title>
+	<link rel="stylesheet" type="text/css" href="neg5.css">
 </head>
 <body>
 
 <section id="preferencias">
-<h2>Preferencias de nuestros clientes</h2>
+	<h2>Preferencias de nuestros clientes</h2>
 
-<form>
+	<form>
+		<h3>¿Cuál es tu sabor favorito?</h3>
+		<input type="radio" name="sabor" value="Chocolate"> Chocolate<br>
+		<input type="radio" name="sabor" value="Dulce de leche"> Dulce de leche<br>
+		<input type="radio" name="sabor" value="Tradicional"> Tradicional<br>
 
-<h3>¿Cuál es tu sabor favorito?</h3>
+		<h3>¿Qué información deseas conocer?</h3>
+		<input type="checkbox" name="consulta" value="Precios"> Precios<br>
+		<input type="checkbox" name="consulta" value="Productos"> Productos<br>
+		<input type="checkbox" name="consulta" value="Pedidos"> Pedidos<br>
 
-<input type="radio"name="sabor"
-value="Chocolate">
+		<h3>¿Cuántas unidades deseas?</h3>
+		<select id="cantidad" name="cantidad">
+                     <option value="2">2 unidades</option>
+			<option value="4">4 unidades</option>
+			<option value="6">6 unidades</option>
+			<option value="8">8 unidades</option>
+			<option value="10">10 unidades</option>
+			<option value="12">12 unidades</option>
+		</select>
+              
+		<h3>¿Para qué ocasión desea nuestras masas dulces?</h3>
+		<input type="checkbox" name="ocasion" value="Cumpleaños"> Cumpleaños<br>
+		<input type="checkbox" name="ocasion" value="Reunión familiar"> Reunión familiar<br>
+		<input type="checkbox" name="ocasion" value="Merienda"> Merienda<br>
 
-Chocolate<br>
-
-<input type="radio" name="sabor"
-value="Dulce de leche">
-
-Dulce de leche<br>
-<input type="radio" name="sabor"
-value="Tradicional">
-
-Tradicional<br>
-
-<h3>¿Qué información deseas conocer?</h3>
-
-<input type="checkbox" name="consulta"
-value="Precios">
-
-Precios<br>
-<input type="checkbox" name="consulta"
-value="Productos">
-
-Productos<br>
-<input type="checkbox" name="consulta"
-value="Pedidos">
-
-Pedidos<br>
-
-<h3>¿Cuántas unidades deseas?</h3>
-<select id="cantidad" name="cantidad">
-    <option value="2">2 unidades</option>
-    <option value="4">4 unidades</option>
-    <option value="6">6 unidades</option>
-    <option value="8">8 unidades</option>
-    <option value="10">10 unidades</option>
-    <option value="12">12 unidades</option>
-</select>
-<h3>¿Para qué ocasión desea nuestras masas dulces?</h3>
-
-
-<input type="checkbox" name="consulta"
-value="Cumpleaños">
-Cumpleaños
+		<h3>¿Qué presentación prefiere?</h3>
+		<input type="checkbox" name="presentación" value="Bandeja pequeña"> Bandeja pequeña<br>
+		<input type="checkbox" name="presentación" value="Bandeja media"> Bandeja media<br>
+		<input type="checkbox" name="presentación" value="Bandeja grande"> Bandeja grande<br>
+	</form>
+</section>
 
 <br>
-<input type="checkbox" name="consulta"
-value="Reunión familiar">
-Reunión familiar
-
-<br>
-<input type="checkbox" name="consulta"
-value="Merienda">
-Merienda
-
-<br>
-<h3>¿Qué presentación prefiere?</h3>
-
-
-<input type="checkbox" name="consulta"
-value="Bandeja pequeña">
-Bandeja pequeña
-
-<br>
-<input type="checkbox" name="consulta"
-value="Bandeja media">
-Bandeja media
-
-<br>
-<input type="checkbox" name="consulta"
-value="Bandeja grande">
-Bandeja grande<br>
-
 <a href="negfamily6.html">Contacto</a>
-
 
 </body>
 </html>
